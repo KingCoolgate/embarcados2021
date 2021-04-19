@@ -1,0 +1,2 @@
+Esse arquivo é da aula 02 para teste e aprendizagem do uso de git
+
