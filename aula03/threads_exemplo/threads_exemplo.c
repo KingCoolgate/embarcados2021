@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include<string.h>
-#include<pthread.h>
-#include<stdlib.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <string.h>
+#include <pthread.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 pthread_t tid[2];
 
@@ -32,7 +32,7 @@ int main(void)
 
     while(i < 2)
     {
-        err = pthread_create(&(tid[i]), NULL, &doSomeThing, NULL);
+        err = pthread_create( &(tid[i]), NULL, (void *)doSomeThing, NULL);
         if (err != 0)
             printf("\ncan't create thread :[%s]", strerror(err));
         else

@@ -9,24 +9,27 @@ pthread_t id,id2;
 void * minha_thread (void *apelido) {
 	float k;
 	while (1) {
-		printf("1\n");
-		k=sin(k+123);
+		k = sin(k+123);
+		printf("%f\n", k);
 		sleep(2);
 	}
 	pthread_exit(NULL);
 }
 
 void * minha_thread_2(void *apelido) {
+	sleep(1);
 	while (1) {
-		printf("2\n");
-		sleep(4);
+		printf(" 2\n");
+		sleep(2);
 	}
 	pthread_exit(NULL);
 }
 
 
 int main(int argc, char *argv[]) {
+
 	pthread_create (&id, NULL , (void *) minha_thread , NULL);
+
 	pthread_create (&id2,NULL , (void *) minha_thread_2,NULL);
 
 	while (1);
