@@ -3,5 +3,5 @@
 while true
 do
 	echo "Hello world!"
-	sleep 5
+	sleep 10
 done

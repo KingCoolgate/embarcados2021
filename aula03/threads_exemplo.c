@@ -13,7 +13,7 @@ void* doSomeThing(void *arg)
 
     if(pthread_equal(id,tid[0]))
     {
-        printf("\n First thread processing\n");
+        printf("\n First thread processing (tendi foi nada)\n");
     }
     else
     {

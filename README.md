@@ -9,3 +9,6 @@ Aula 02 - Compilação, arquitetura arm e git.
 Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling.
 
 Aula 04 - Cross compiling prática, explicação de threads, projetos de matéria.
+
+Aula 04 - Atualização dos arquivos, reajustando os branches e commits.
+

@@ -6,7 +6,7 @@
 
 pthread_t id,id2;
 
-void * minha_thread (void *apelido) {
+void * nossa_thread (void *apelido) {
 	float k;
 	while (1) {
 		printf("1\n");
