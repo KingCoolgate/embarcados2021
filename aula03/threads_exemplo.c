@@ -17,7 +17,7 @@ void* doSomeThing(void *arg)
     }
     else
     {
-        printf("\n Second thread processing\n");
+        printf("\n Second thread processing (tendi foi nada 2)\n");
     }
 
     for(i=0; i<(0xFFFFFFFF);i++);
