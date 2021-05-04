@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Esse arquivo é da aula 02 para teste e aprendizagem do uso de git
 
+=======
+texto teste da aula
+>>>>>>> adicionado material da aula 02 teste do github
