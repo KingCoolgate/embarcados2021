@@ -9,7 +9,7 @@ pthread_t id,id2;
 void * minha_thread (void *apelido) {
 	float k;
 	while (1) {
-		k = sin(k+123);
+		k = sin(k+ (3.14/2));
 		printf("%f\n", k);
 		sleep(2);
 	}
