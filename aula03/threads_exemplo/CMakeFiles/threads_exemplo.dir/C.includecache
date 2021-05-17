@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joao-ishida/embarcados2021/aula03/threads_exemplo/threads_exemplo.c
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+stdlib.h
+-
+unistd.h
+-
+

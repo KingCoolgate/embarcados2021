@@ -1,0 +1,3 @@
+/home/joao-ishida/embarcados2021/aula03/threads/CMakeFiles/rebuild_cache.dir
+/home/joao-ishida/embarcados2021/aula03/threads/CMakeFiles/edit_cache.dir
+/home/joao-ishida/embarcados2021/aula03/threads/CMakeFiles/threads.dir
