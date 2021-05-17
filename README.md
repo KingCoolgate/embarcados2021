@@ -2,53 +2,53 @@
 
 Nesse repositório é para fazermos e mostrar os andamentos do projeto. 
 
-#Aula 01 - Estrutura de embarcado, linux e programa de aula.
+# Aula 01 - Estrutura de embarcado, linux e programa de aula.
 
-#Aula 02 - Compilação, arquitetura arm e git.
+# Aula 02 - Compilação, arquitetura arm e git.
 
-#Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling.
+# Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling.
 
-#Aula 04 - Cross compiling prática, explicação de threads, projetos de matéria.
+# Aula 04 - Cross compiling prática, explicação de threads, projetos de matéria.
 
-#Aula 04 - Atualização dos arquivos, reajustando os branches e commits. Funfou, mas via gambiarras.
+# Aula 04 - Atualização dos arquivos, reajustando os branches e commits. Funfou, mas via gambiarras.
 
-#Aula 05 - Programação de Kernel
+# Aula 05 - Programação de Kernel
 
-#Aula 06 - Threads, portas do embarcados, cross-compiling
+# Aula 06 - Threads, portas do embarcados, cross-compiling
 
 
 # Links possivelmente úteis
 
->Tutoriais
+>Tutoriais <br>
 https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
 https://developer.gnome.org/gtk4/stable/gtk-getting-started.html
 
->git oficial
+>git oficial <br>
 https://gnome.pages.gitlab.gnome.org/gtk/gtk4/
 
->Manuais
+>Manuais <br>
 https://developer.gnome.org/references
 https://developer.gnome.org/gtk4/stable/
 https://developer.gnome.org/gtk3/stable/
 
->Resumo
+>Resumo <br>
 https://developer.gnome.org/platform-overview/unstable/tech-gtk.html.en
 
->Instalação do GTK
+Instalação do GTK
 Vai se necessário o uso do ninja e do meson
 ```sh
-'$ sudo apt-get install python3 python3-pip python3-setuptools python3-wheel ninja-build'
-'$ sudo su'
-'# pip3 install meson'
+$ sudo apt-get install python3 python3-pip python3-setuptools python3-wheel ninja-build
+$ sudo su
+# pip3 install meson
 ```
 
 Faça download dos arquivos
 ```sh
-'git clone https://gitlab.gnome.org/GNOME/gtk.git'
-'$ cd gtk/'
-'$ meson setup --prefix /opt/gtk builddir'
-'$ cd builddir'
-'$ ninja'
-'$ sudo su'
-'# ninja install'
+git clone https://gitlab.gnome.org/GNOME/gtk.git
+$ cd gtk/
+$ meson setup --prefix /opt/gtk builddir
+$ cd builddir
+$ ninja
+$ sudo su
+# ninja install
 ```
