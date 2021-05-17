@@ -28,7 +28,7 @@ void * minha_thread_2(void *apelido) {
 
 int main(int argc, char *argv[]) {
 
-	pthread_create (&id, NULL , (void *) minha_thread , NULL);
+	pthread_create (&id, NULL , (void *) minha_thread, NULL);
 
 	pthread_create (&id2,NULL , (void *) minha_thread_2,NULL);
 
