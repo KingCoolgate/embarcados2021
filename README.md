@@ -37,7 +37,7 @@ $ sudo su
 
 Faça download dos arquivos
 ```sh
-git clone https://gitlab.gnome.org/GNOME/gtk.git
+$ git clone https://gitlab.gnome.org/GNOME/gtk.git
 $ cd gtk/
 $ meson setup --prefix /opt/gtk builddir
 $ cd builddir
