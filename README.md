@@ -14,7 +14,10 @@ Aula 09 - Server e client
 
 # Links possivelmente úteis
 
->Tutoriais <br>
+>Tutoriais Toradex <br>
+https://developer.toradex.com/getting-started/module-3-hardware-peripherals/basic-gpio-usage-iris-carrier-board-colibri-vfxx?som=colibri-vf50&board=iris-carrier-board&os=linux&desktop=linux
+
+>Tutoriais GTK <br>
 https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
 https://developer.gnome.org/gtk4/stable/gtk-getting-started.html
 
