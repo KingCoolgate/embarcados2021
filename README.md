@@ -9,8 +9,8 @@ Aula 04 - Cross compiling prática, explicação de threads, projetos de matéri
 Aula 05 - Atualização dos arquivos, reajustando os branches e commits. Funfou, mas via gambiarras. <br>
 Aula 06 - Programação de Kernel <br>
 Aula 07 - Threads, portas do embarcados, cross-compiling <br>
-Aula 08 - Redes
-Aula 09 - Server e client
+Aula 08 - Redes <br>
+Aula 09 - Server e client <br>
 
 # Links possivelmente úteis
 
