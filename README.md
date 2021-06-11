@@ -8,11 +8,7 @@ Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling. <br>
 Aula 04 - Cross compiling prática, explicação de threads, projetos de matéria. <br>
 Aula 05 - Atualização dos arquivos, reajustando os branches e commits. Funfou, mas via gambiarras. <br>
 Aula 06 - Programação de Kernel <br>
-<<<<<<< HEAD
 Aula 07 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
-=======
-Aula 07 - Threads, portas do embarcados, cross-compiling <br>
->>>>>>> 258ddc54408cf62eeaf04a74258010954b17716f
 Aula 08 - Redes <br>
 Aula 09 - Server e client <br>
 
