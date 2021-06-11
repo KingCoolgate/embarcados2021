@@ -1,5 +1,4 @@
 # Os arquivos dessa parte podem ser encontrados
 
-> https://github.com/griloHBG/producer-consumer
-
-> Todos os direitos e méritos são do Henrique
+> https://github.com/griloHBG/producer-consumer <br>
+ Todos os direitos e méritos são do Henrique
