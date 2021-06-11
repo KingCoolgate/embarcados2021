@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/semaphore_example.dir/semaphore_example.c.o  -o semaphore_example  -lpthread 

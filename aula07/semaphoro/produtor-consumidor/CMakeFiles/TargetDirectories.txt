@@ -1,0 +1,3 @@
+/home/joao-ishida/semaforo/producer-consumer/CMakeFiles/rebuild_cache.dir
+/home/joao-ishida/semaforo/producer-consumer/CMakeFiles/edit_cache.dir
+/home/joao-ishida/semaforo/producer-consumer/CMakeFiles/semaphore_example.dir
