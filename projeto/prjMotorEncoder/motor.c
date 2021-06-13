@@ -1,16 +1,18 @@
-# include <stdio.h>
-# include <stdlib.h>
-# include <pthread.h>
-# include <unistd.h>
-# include <math.h>
-# include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <math.h>
+#include <fcntl.h>
+#include <semaphore.h>
 
 /////////////////////////////////////////////////VARIÁVEIS GLOBAIS/////////////////////////////////////
 
 pthread_t id1, id2, id3;
 double posicaoFinal, ddp, erro;
 double coef, correcao;
-  
+
 /////////////////////////////////////////////////FUNÇÕES///////////////////////////////////////////////
 
 //FUNÇÃO DA PRIMEIRA THREAD
@@ -35,10 +37,10 @@ void * minha_thread_2(void *apelido) {
 }
 
 //FUNÇÃO DA TERCEIRA THREAD
-void * minha_thread_2(void *apelido) {
+void * minha_thread_3(void *apelido) {
 	sleep(1);
 	while (1) {
-		printf(" 2\n");
+		printf(" 3\n");
 		sleep(2);
 	}
 	pthread_exit(NULL);
@@ -47,17 +49,17 @@ void * minha_thread_2(void *apelido) {
 //FUNÇÃO DE CONFIGURAÇÃO DAS PORTAS PARA LED
 int portConfig(int argc, char *argv[]){
 	int fd;
- 
+
   // export GPIO
   fd = open("/sys/class/gpio/export", O_WRONLY);
   write(fd, "50", 2);
   close(fd);
- 
+
   // Configure as output
   fd = open("/sys/class/gpio/gpio50/direction", O_WRONLY);
   write(fd, "out", 3);
   close(fd);
- 
+
   // Blink GPIO once
 /*
   fd = open("/sys/class/gpio/gpio50/value", O_WRONLY | O_SYNC);
@@ -65,12 +67,12 @@ int portConfig(int argc, char *argv[]){
   usleep(1000000);
   write(fd, "1", 1);
   close(fd);
-*/ 
+*/
   return EXIT_SUCCESS;
 }
 
 int calculoTensao(posicaoFinal, posicaoInicial){
-	erro = math.abs(posicaoFinal - posicaoInicial);	
+	erro = math.abs(posicaoFinal - posicaoInicial);
 	ddp = erro*coef + correcao;
 }
 
@@ -95,11 +97,11 @@ int saidaProMotor(posicaoAtual, portaComunicacao, portaSaida, ....){
 	s = posicao;
 	ptc = porta;
 	pts = portaS;
-	
+
 	.
 	.
 	.
-	
+
 	return(dpp)
 }
 
@@ -114,4 +116,3 @@ int thread2(){
 		envio(tesao, porta);
 	}
 }
-
