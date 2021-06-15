@@ -111,7 +111,35 @@ int envio(dauibfailsdf){
 
 int thread2(){
 	while(true){
-		envio(tesao, porta);
+		envio(tensao, porta);
 	}
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+Sensor
+Controlador
+Atuador
+
+Interface
+
+
+thread 1 (comunicacao sensor-controlador)
+	coletar dados/valores do sensor (constantemente)
+	transformar os dados obtidos (numero/decimal)
+	compreender o significado do sinal (posicao absoluta x relativa)
+	enviar posicao para o controlador
+
+	matematica/modelagem do controlador
+	calcular o controle (|posicao no tempo 1 - posicao desejada| = erro)
+	baseado no erro, fazer o calculo de proporcionalidade para a tensao a ser enviada pro motor
+
+thread 2 (comunicacao controlador-atuador)
+	coletar dados/valores do controlador
+	transformar os dados obtidos
+	compreender o significado do dado
+	enviar o valor de saida para o atuador/motor
+	
+	tal que, quando calculado o valor de saida, o valor do sensor atualiza, refazendo o calculo e mandando-o de volta
+
+protocolo de comunicao em cam, a especificar as portas dos arquivos etc
+enviando: caso o motor tenha apenas uma ponte H, mandar tensao (e a ponte H faz o calculo proprio, mexendo o motor); caso haja um microcontrolador, enviar um .txt (ditando o que deve ser feito)
