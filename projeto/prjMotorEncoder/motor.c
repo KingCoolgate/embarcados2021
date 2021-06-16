@@ -1,11 +1,24 @@
+//Bibliotecas basicas de C
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+//Bibliotecas de threads, mutex getsockname
 #include <pthread.h>
+#include <semaphore.h>
+
+//Bibliotecas de funções diversas
 #include <unistd.h>
 #include <math.h>
 #include <fcntl.h>
-#include <semaphore.h>
+
+//Bibliotecas de Redes
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <unistd.h>
+#include <netdb.h>
+
 
 /////////////////////////////////////////////////VARIÁVEIS GLOBAIS/////////////////////////////////////
 
