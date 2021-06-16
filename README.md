@@ -1,6 +1,6 @@
 # Matéria de Embarcados
 
-Nesse repositório é para fazermos e mostrar os andamentos do projeto. 
+Nesse repositório é para fazermos e mostrar os andamentos do projeto.
 
 Aula 01 - Estrutura de embarcado, linux e programa de aula. <br>
 Aula 02 - Compilação, arquitetura arm e git. <br>
@@ -11,6 +11,7 @@ Aula 06 - Programação de Kernel <br>
 Aula 07 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
 Aula 08 - Redes <br>
 Aula 09 - Server e client <br>
+Aula 10 - Server e client 2 <br>
 
 # Links possivelmente úteis
 
