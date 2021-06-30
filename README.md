@@ -12,6 +12,8 @@ Aula 07 - Threads (conceito de semaphoro- producer/consumer), portas do embarcad
 Aula 08 - Redes <br>
 Aula 09 - Server e client <br>
 Aula 10 - Server e client 2 <br>
+Aula 11 - Comunicação CAN <br>
+Aula 12 - Considerações de Projetos embarcados <br>
 
 # Links possivelmente úteis
 
