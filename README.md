@@ -5,9 +5,9 @@ Nesse repositório é para fazermos e mostrar os andamentos do projeto.
 Aula 01 - Estrutura de embarcado, linux e programa de aula. <br>
 Aula 02 - Compilação, arquitetura arm e git. <br>
 Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling. <br>
-Aula 04 - Cross compiling prática, explicação de threads, projetos de matéria. <br>
-Aula 05 - Atualização dos arquivos, reajustando os branches e commits. Funfou, mas via gambiarras. <br>
-Aula 06 - Programação de Kernel <br>
+Aula 04 - Consideração de Hardware <br>
+Aula 05 - Programação de Kernel <br> 
+Aula 06 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
 Aula 07 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
 Aula 08 - Redes <br>
 Aula 09 - Server e client <br>
