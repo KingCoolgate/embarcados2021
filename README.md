@@ -16,6 +16,8 @@ Aula 11 - 14/06 - Server e client 2. <br>
 Aula 12 - 21/06 - Comunicação CAN. <br>
 Aula 13 - 28/06 - Considerações de Projetos embarcados e apresentações de ideias. <br>
 Aula 14 - 05/07 - Considerações de Projetos embarcados e apresentações de ideias de grupos restantes e resolução de duvidas. <br>
+Aula 15 - 12/07 - Prova. <br>
+Aula 16 - 19/07 - Apresentação de projeto <br>
 
 # Links possivelmente úteis
 
