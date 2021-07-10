@@ -129,8 +129,7 @@ int thread2(){
 		envio(tensao, porta);
 	}
 }
-<<<<<<< HEAD
-=======
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 Sensor
@@ -160,4 +159,4 @@ thread 2 (comunicacao controlador-atuador)
 
 protocolo de comunicao em cam, a especificar as portas dos arquivos etc
 enviando: caso o motor tenha apenas uma ponte H, mandar tensao (e a ponte H faz o calculo proprio, mexendo o motor); caso haja um microcontrolador, enviar um .txt (ditando o que deve ser feito)
->>>>>>> 6e351b58b6c3c4f4a6a1741bccbded1aeb8cb879
+
