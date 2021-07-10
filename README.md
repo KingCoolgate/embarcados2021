@@ -2,18 +2,20 @@
 
 Nesse repositório é para fazermos e mostrar os andamentos do projeto.
 
-Aula 01 - Estrutura de embarcado, linux e programa de aula. <br>
-Aula 02 - Compilação, arquitetura arm e git. <br>
-Aula 03 - Uso de C, compiladores, threads, acesso remoto e cross compiling. <br>
-Aula 04 - Consideração de Hardware <br>
-Aula 05 - Programação de Kernel <br> 
-Aula 06 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
-Aula 07 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling <br>
-Aula 08 - Redes <br>
-Aula 09 - Server e client <br>
-Aula 10 - Server e client 2 <br>
-Aula 11 - Comunicação CAN <br>
-Aula 12 - Considerações de Projetos embarcados <br>
+Aula 01 - 12/04 - Estrutura de embarcado, linux e programa de aula. <br>
+Aula 02 - 19/14 - Compilação, arquitetura arm e git. <br>
+Aula 03 - 26/04 - Uso de C, compiladores, threads, acesso remoto e cross compiling. <br>
+Aula 04 - 03/05 - Threads e programação em paralelo <br>
+Aula 05 - 05/05 - Consideração de Hardware <br> 
+Aula 06 - 10/05 - Programação de Kernel <br>
+Aula 07 - 17/05 - Uso de C, compiladores, cross compiling e threads.  <br>
+Aula 08 - 24/05 - Threads (conceito de semaphoro- producer/consumer), portas do embarcados, cross-compiling. <br>
+Aula 09 - 31/05 - Redes. <br>
+Aula 10 - 07/06 - Server e client. <br>
+Aula 11 - 14/06 - Server e client 2. <br>
+Aula 12 - 21/06 - Comunicação CAN. <br>
+Aula 13 - 28/06 - Considerações de Projetos embarcados e apresentações de ideias. <br>
+Aula 14 - 05/07 - Considerações de Projetos embarcados e apresentações de ideias de grupos restantes e resolução de duvidas. <br>
 
 # Links possivelmente úteis
 
@@ -24,7 +26,7 @@ https://developer.toradex.com/getting-started/module-3-hardware-peripherals/basi
 https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
 https://developer.gnome.org/gtk4/stable/gtk-getting-started.html
 
->git oficial <br>
+>git oficial de GTK <br>
 https://gnome.pages.gitlab.gnome.org/gtk/gtk4/
 
 >Manuais <br>
