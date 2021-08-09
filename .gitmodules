@@ -1,0 +1,3 @@
+[submodule "producer-consumer"]
+	path = aula07/producer-consumer
+	url = https://github.com/griloHBG/producer-consumer
