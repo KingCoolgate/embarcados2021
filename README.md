@@ -1,3 +1,8 @@
+# PROFESSORES E MONITORES, POR CONTA DE TER QUE FAZER REFERÊNCIA A OUTROS GITs PARA NÃO FICAR POLUÍDO RESOLVEMOS CRIAR OUTRO ONDE VAMOS ESTARÁ SÓ O PROJETO. LINK LOGO A BAIXO
+
+> NOVO GIT SÓ COM O PROJETO
+ https://github.com/KingCoolgate/projetoEmbarcados2021
+
 # Matéria de Embarcados
 
 Nesse repositório é para fazermos e mostrar os andamentos do projeto.
